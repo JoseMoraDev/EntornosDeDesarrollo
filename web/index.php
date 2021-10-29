@@ -9,7 +9,11 @@
   <body>
 
    <h1>Header</h1>
-
+      <?php
+         $base=200;
+         $altura=546;
+         echo 'La base es '.$base.', la altura es '.$altura.', y el area es '.($base*$altura/2);
+      ?>
    <img src="imagenes/increibles.png" width="100px"/>
 
    <ul>
